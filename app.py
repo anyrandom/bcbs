@@ -6,8 +6,7 @@ import pandas as pd
 #import plotly.express as px
 import altair as alt
 
-# openai.api_key = st.secrets.openai_key
-openai.api_key = "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"
+openai.api_key = st.secrets.openai_key
 st.header("Chat with BCBS")
 
 # excel_data = [["Blue Care Network of Michigan", 3.5, 4.5, 3.5],
