@@ -91,7 +91,7 @@ index = load_data()
 # openai : Chooses whether to query the knowledge base or not—similar to ReAct agent mode, but uses OpenAI’s built-in fuOpenAI'salling capabilities.
 
 
-chat_engine = new_index.as_chat_engine(chat_mode="context", verbose=True)
+chat_engine = index.as_chat_engine(chat_mode="context", verbose=True)
 
 # chat_engine_external = index.as_chat_engine(chat_mode="openai", verbose=True)
 
